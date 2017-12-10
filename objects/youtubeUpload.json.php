@@ -1,6 +1,6 @@
 <?php
 
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 require_once 'video.php';
 $obj = new stdClass();
 $obj->success = false;

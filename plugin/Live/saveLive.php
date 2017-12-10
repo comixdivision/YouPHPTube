@@ -1,5 +1,5 @@
 <?php
-require_once '../../videos/configuration.php';
+require_once '../../config/configuration.php';
 require_once './Objects/LiveTransmition.php';
 require_once '../../objects/user.php';
 $obj = new stdClass();

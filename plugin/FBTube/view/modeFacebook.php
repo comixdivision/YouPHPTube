@@ -1,12 +1,12 @@
 <?php
-if (!file_exists('../videos/configuration.php')) {
+if (!file_exists('../config/configuration.php')) {
     if (!file_exists('../install/index.php')) {
         die("No Configuration and no Installation");
     }
     header("Location: install/index.php");
 }
 
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['language']; ?>">

@@ -1,5 +1,5 @@
 <?php
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['language']; ?>">

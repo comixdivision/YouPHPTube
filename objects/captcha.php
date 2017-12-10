@@ -2,7 +2,7 @@
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 class Captcha{
     private $largura, $altura, $tamanho_fonte, $quantidade_letras;
 

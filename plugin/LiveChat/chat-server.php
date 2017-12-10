@@ -4,7 +4,7 @@ use Ratchet\Http\HttpServer;
 use Ratchet\WebSocket\WsServer;
 use MyApp\Chat;
 
-require_once dirname(__FILE__) . '/../../videos/configuration.php';
+require_once dirname(__FILE__) . '/../../config/configuration.php';
 require_once $global['systemRootPath'] . 'plugin/LiveChat/ratchet/autoload.php';
 require_once $global['systemRootPath'] . 'plugin/LiveChat/Chat.php';
 

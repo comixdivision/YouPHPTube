@@ -10,7 +10,7 @@
     </head>
     <body>
         <?php
-        require_once '../videos/configuration.php';
+        require_once '../config/configuration.php';
         echo $config->getAdsense();
         ?>
     </body>

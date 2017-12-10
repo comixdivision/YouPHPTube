@@ -1,5 +1,5 @@
 <?php
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 require_once $global['systemRootPath'] . 'objects/functions.php';
 //var_dump($config);exit;

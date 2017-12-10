@@ -3,7 +3,7 @@ if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
 header('Access-Control-Allow-Origin: *');
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once 'functions.php';
 header('Content-Type: application/json');
 $obj = new stdClass();

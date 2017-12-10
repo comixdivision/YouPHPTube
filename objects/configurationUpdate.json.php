@@ -9,7 +9,7 @@ if (!User::isAdmin()) {
     die('{"error":"' . __("Permission denied") . '"}');
 }
 
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/configuration.php';
 require_once $global['systemRootPath'] . 'objects/functions.php';
 $config = new Configuration();

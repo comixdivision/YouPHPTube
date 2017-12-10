@@ -1,5 +1,5 @@
 <?php
-$configFile = dirname(__FILE__).'/../../videos/configuration.php';
+$configFile = dirname(__FILE__).'/../../config/configuration.php';
 require_once $configFile;
 if(empty($_GET['notFound'])){
     header("Location: {$global['webSiteRootURL']}img/image404.php?notFound=1");

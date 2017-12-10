@@ -2,7 +2,7 @@
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 require_once $global['systemRootPath'] . 'objects/functions.php';
 
@@ -342,7 +342,7 @@ class Configuration {
 require_once \$global['systemRootPath'].'objects/include_config.php';
 ";
 
-        $fp = fopen($global['systemRootPath'] . "videos/configuration.php", "wb");
+        $fp = fopen($global['systemRootPath'] . "config/configuration.php", "wb");
         fwrite($fp, $content);
         fclose($fp);
     }

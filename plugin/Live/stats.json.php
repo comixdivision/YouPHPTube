@@ -13,7 +13,7 @@ if(empty($_POST['name']) && !empty($_GET['name'])){
 }
 $obj->name = $_POST['name'];
 $obj->applications = array();
-require_once '../../videos/configuration.php';
+require_once '../../config/configuration.php';
 require_once './Objects/LiveTransmition.php';
 require_once '../../objects/user.php';
 $p = YouPHPTubePlugin::loadPlugin("Live");

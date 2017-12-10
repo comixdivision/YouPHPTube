@@ -1,6 +1,6 @@
 <?php
 $vars = array();
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 
 function listAll($dir) {
     global $vars;

@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 // check if user already exists
 $userCheck = new User(0, $_POST['user'], false);

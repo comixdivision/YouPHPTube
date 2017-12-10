@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 $obj = new stdClass();
 if (empty($_POST['user']) || empty($_POST['recoverPassword']) || empty($_POST['newPassword']) || empty($_POST['newPasswordConfirm'])) {

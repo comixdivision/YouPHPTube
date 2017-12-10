@@ -136,8 +136,10 @@ $content = "<?php
 
 require_once \$global['systemRootPath'].'objects/include_config.php';
 ";
+mkdir($_POST['systemRootPath'] . "config", 0700);
+mkdir($_POST['systemRootPath'] . "videos", 0700);
 
-$fp = fopen($_POST['systemRootPath'] . "videos/configuration.php", "wb");
+$fp = fopen($_POST['systemRootPath'] . "config/configuration.php", "wb");
 fwrite($fp, $content);
 fclose($fp);
 /*

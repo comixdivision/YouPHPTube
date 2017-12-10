@@ -13,7 +13,7 @@ if (empty($_POST)) {
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = "../";
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 require_once $global['systemRootPath'] . 'objects/video.php';
 

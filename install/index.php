@@ -18,8 +18,8 @@ require_once '../objects/functions.php';
 
     <body>
         <?php
-        if (file_exists('../videos/configuration.php')) {
-            require_once '../videos/configuration.php';
+        if (file_exists('../config/configuration.php')) {
+            require_once '../config/configuration.php';
             ?>
             <div class="container">
                 <h3 class="alert alert-success">

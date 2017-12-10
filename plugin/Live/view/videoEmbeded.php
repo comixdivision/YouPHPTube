@@ -1,5 +1,5 @@
 <?php
-require_once '../../videos/configuration.php';
+require_once '../../config/configuration.php';
 require_once $global['systemRootPath'] . 'plugin/Live/Objects/LiveTransmition.php';
 $t = LiveTransmition::getFromDbByUserName($_GET['u']);
 $uuid = $t['key'];

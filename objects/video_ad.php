@@ -3,7 +3,7 @@
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = "../";
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/bootGrid.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 require_once $global['systemRootPath'] . 'objects/include_config.php';

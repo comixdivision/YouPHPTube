@@ -1,7 +1,7 @@
 <?php
 global $isEmbed;
 $isEmbed = 1;
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/video.php';
 $video = Video::getVideo();
 if (empty($video)) {

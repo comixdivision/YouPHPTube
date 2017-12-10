@@ -1,5 +1,5 @@
 <?php
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config->getLanguage(); ?>">
@@ -16,7 +16,7 @@ require_once '../videos/configuration.php';
         ?>
 
         <div class="container">
-            <div class="bgWhite">  
+            <div class="bgWhite">
                 <?php
                 $custom = "";
                 if (YouPHPTubePlugin::isEnabled("c4fe1b83-8f5a-4d1b-b912-172c608bf9e3")) {

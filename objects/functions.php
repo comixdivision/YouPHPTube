@@ -267,7 +267,7 @@ function croak($statusarray) {
 }
 
 function getSecondsTotalVideosLength() {
-    $configFile = dirname(__FILE__) . '/../videos/configuration.php';
+    $configFile = dirname(__FILE__) . '/../config/configuration.php';
     require_once $configFile;
     global $global;
     $sql = "SELECT * FROM videos v ";

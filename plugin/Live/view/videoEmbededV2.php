@@ -1,5 +1,5 @@
 <?php
-require_once '../../videos/configuration.php';
+require_once '../../config/configuration.php';
 /**
  * this was made to mask the main URL
  */

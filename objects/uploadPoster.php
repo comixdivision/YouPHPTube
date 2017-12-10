@@ -1,7 +1,7 @@
 <?php
-$configFile = '../../videos/configuration.php';
+$configFile = '../../config/configuration.php';
 if (!file_exists($configFile)) {
-    $configFile = '../videos/configuration.php';
+    $configFile = '../config/configuration.php';
 }
 require_once $configFile;
 require_once $global['systemRootPath'] . 'objects/video.php';

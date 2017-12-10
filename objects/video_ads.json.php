@@ -1,5 +1,5 @@
 <?php
-require_once '../videos/configuration.php';
+require_once '../config/configuration.php';
 require_once 'video_ad.php';
 require_once $global['systemRootPath'] . 'objects/functions.php';
 header('Content-Type: application/json');

@@ -2,7 +2,7 @@
 if (empty($global['systemRootPath'])) {
     $global['systemRootPath'] = '../';
 }
-require_once $global['systemRootPath'] . 'videos/configuration.php';
+require_once $global['systemRootPath'] . 'config/configuration.php';
 require_once $global['systemRootPath'] . 'objects/user.php';
 if (empty($_POST['user'])) {
     $_POST['user'] = $_GET['user'];
